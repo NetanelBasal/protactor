@@ -1,7 +1,7 @@
 describe('Protractor Demo App', function() {
   it('should have a title', function() {
 
-    browser.get('https://reskill.me/');
+    browser.get('https://reskill.me');
 
     expect(browser.getTitle()).toEqual('ReSkill - Become the talent that employers are searching for');
   });
