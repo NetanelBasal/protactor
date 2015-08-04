@@ -1,0 +1,19 @@
+{
+  "name": "protactor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "protractor protactor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NetanelBasal/protactor.git"
+  },
+  "author": "Netanel Basal <netanel7799@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NetanelBasal/protactor/issues"
+  },
+  "homepage": "https://github.com/NetanelBasal/protactor"
+}
