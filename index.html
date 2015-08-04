@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="protactorTest">
+<head>
+  <meta charset="UTF-8">
+  <title>Protactor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css">
+</head>
+<body>
+
+  <section>
+
+    <div ui-view></div>
+
+    <a ui-sref="state1">State 1</a>
+    <a ui-sref="state2">State 2</a>
+
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
