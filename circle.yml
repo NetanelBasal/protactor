@@ -4,4 +4,4 @@ machine:
 test:
   post:
     - 'webdriver-manager update --standalon'
-    - 'webdriver-manager start&'
+    - 'webdriver-manager start'
