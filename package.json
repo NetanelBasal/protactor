@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/NetanelBasal/protactor/issues"
   },
-  "homepage": "https://github.com/NetanelBasal/protactor"
+  "homepage": "https://github.com/NetanelBasal/protactor",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-protractor": "^1.0.0"
+  }
 }
