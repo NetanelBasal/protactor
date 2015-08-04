@@ -3,4 +3,4 @@ machine:
     version: 0.12
 test:
   post:
-    - 'webdriver-manager start'
+    - 'webdriver-manager start&'
