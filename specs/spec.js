@@ -19,10 +19,10 @@ describe('Protractor Demo App', function() {
   //   expect(secondLi.getText()).toEqual("2");
   // });
 
-  // it('should be in the page', function () {
-  //   var h1 = element(by.css('h1'));
-  //   expect(h1.isPresent()).toBe(true);
-  // });
+  it('should be in the page', function () {
+    var h1 = element(by.buttonText('How It Works'));
+    expect(h1.isPresent()).toBe(true);
+  });
 
   // it('expectation', function() {
   //    element.all(by.repeater('cat in main.pets').column('cat.age')).then(function(ages) {
