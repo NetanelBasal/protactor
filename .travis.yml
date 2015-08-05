@@ -3,4 +3,4 @@ node_js:
   - "0.12"
 before_script:
   - 'webdriver-manager update --standalon'
-  - 'webdriver-manager start&'
+  - 'webdriver-manager start'
