@@ -1,9 +1,9 @@
 machine:
- node:
-  version: 0.12
+  node:
+    version: 0.12
 test:
- pre:
-  - 'webdriver-manager update --standalon'
-  - 'webdriver-manager start'
-   background: true
-  - sleep 8
+  pre:
+    - 'webdriver-manager update --standalon'
+    - 'webdriver-manager start':
+        background: true
+    - sleep 8
