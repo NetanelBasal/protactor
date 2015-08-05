@@ -4,4 +4,6 @@ machine:
 test:
   pre:
     - 'webdriver-manager update --standalon'
-    - 'webdriver-manager start &'
+    - 'webdriver-manager start'
+        background: true
+    - sleep 8
