@@ -5,5 +5,5 @@ test:
   pre:
     - 'webdriver-manager update --standalon'
     - 'webdriver-manager start'
-        background: true
+          background: true
     - sleep 8
